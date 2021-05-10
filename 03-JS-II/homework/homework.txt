@@ -1,0 +1,39 @@
+bloque de codigo: un pedacito de palabras de programacion que tiene un inicio y un fin. Ejemplo:
+
+aqui inicia el codigo
+pintar todo de rojo
+pintar borde de morado
+aqui termina el codigo
+
+for: un bloque de codigo que se repite las veces que yo le diga
+
+inicio bloque for de repeticion, 
+quiero que inicie en 2
+quiero que cuando llegue al 20 deje de repetirse
+quiero que avance de dos en dos
+  Aqui van las instrucciones del bloque {
+    grita hola!!
+  }
+ste es el final del bloque, donde se avansa de dos en dos
+y despues vuelve al inicio del bloque 
+
+
+&&: es un and, es parecido a cuando quieres tener las dos cosas
+
+si quiero ir a la tienda debo de tener dinero y chanclas, sino no puedo ir 
+(tener dinero) && (traer chanclas)
+
+
+||: es un or, es cuando una cosa u otra te permite hacer las cosas
+
+si quiero comprar algo puedo usar monedas o billetes, o los dos
+
+(billetes) || (monedas)
+
+!: cambia un si a un no y un no a un si. lo que le agreges significa lo contrario si le pones !
+
+(vivo en tepic) = vivo en tepic
+!(vivo en tepic) = no vivo en tepic
+
+(hambre) = tengo hambre
+!(hambre) = no tengo hambre

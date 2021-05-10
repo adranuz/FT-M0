@@ -1,0 +1,13 @@
+un array es una lista de cosas, puede ser de numeros, de animales, de comida o de todo, el unico problema es que todo viene desordenado y y son de la siguiente forma
+
+
+un array de nada  = []
+
+un array de listaDelSuper = [leche, comida, cereal]
+
+en otros lenguajes los arrays tienen que ser de un solo tipo, pero en Javascript pueden ser de cualquier cosa que tu quieras un revoltijo
+
+y hay varias formas de seleccionar las cosas
+puedes encontrar la leche con su numero de orden, por ejemplo listaDeSuper el primero es leche, para seleccionarlo elejimos la primera posicion que es 0 de esta manera listaDeSuper[0]
+
+o podemos elegirla a partir de su palabra con listaDeSuper.indexOf(leche) y retorna la poscision que seria 0 

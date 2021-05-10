@@ -1,0 +1,11 @@
+Variables: son cajitas en las que puedes guardar cualquier cosa
+
+Strings: son textos, pueden ser de 1 a infinito numero de caracteres
+
+Funciones (argumentos, return): son cajas que hacen cosas, por ejemplo una caja que imprima un color. Estas cajas tambien transforman, puedes meter un lapiz y regresar un borrador u otra cosa.
+Los argumentos en las funciones son variables o valores que solo existen dentro de la funcion, y son declarados cuando describes que pasara en tu funcion, y sus valores son asignados al correr la funcion.
+el return es la respuesta de la funcion. el como el resultado. por ejemplo en una suma 2 + 2 que es igual a 4, podemos elegir quye vamos a hacer con el 4, si mostrarlo en algun lado o regresar su valor cuando termine la funcion.
+
+Declaraciones if: es una manera de seleccionar el camino poniendo comision si algo es igual a algo, y si no hacer otra cosa o no hacer nada
+
+Valores booleanos (true, false): es como un si y un no, tienes azucar? si o no, donde si es true y no es false

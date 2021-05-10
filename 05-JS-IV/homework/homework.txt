@@ -1,0 +1,51 @@
+- Objetos
+  Son listas de datos como los arrays pero con valores que te dicen que escribe
+  Son como una variable donde se guardan todas las caracteristicas de algo, por ejemplo un perrito, un carro, una bicicleta, una casa, lo que tu quieras que puedas decir que es algo existente.
+  por ejemplo podemos hacer un objeto de perrito
+
+  ```
+  const myPerrito = {
+    nombre: 'firulais',
+    aniosPerrunos: 3,
+    color: 'blanco',
+    trucos: ['muertito', 'sientate', 've por la pelota']
+    aprenderTruco: (nuevoTruco) => trucos.push(nuevoTruco)
+  }
+  ```
+
+- Propiedades
+  Son los valores estaticos que se guardan dentro del objeto, ellas contienen caracteristicas de mi perrito
+
+  ```
+  const myPerrito = {
+    nombre: 'firulais', //este
+  }
+  ```
+
+- Métodos
+  Es una propiedad ejecutable, es una propiedad del objeto que contiene una funcion y por lo tanto se puede ejecutar para que haga algo.
+  Este metodo agrega un truco a mi array de trucos
+  ```
+  myPerrito.aprenderTruco('ir por disco') 
+  ```
+
+- Bucle for…in
+  Es un ciclo normal como lo es el for, como lo es el while y todos los demas, en el que pasa uno por uno en cada posicion del objeto, ejecutando algo con los valores en cada iteraciones
+  Es como cuando quiieres ver que informacion contiene myiPerrito.
+  ```
+  for (let property in myPerrito) {
+    console.log(`${property}: ${myPerrito[property]}`)
+  }
+  ```
+
+
+- Notación de puntos vs notación de corchetes
+  Es la manera en la que se piden las propiedades, se puede usar una u otra
+  ```
+  get = objeto.propiedad;
+  objeto.propiedad = set;
+  
+  get = objeto[nombre_propiedad];
+  objeto[nombre_propiedad] = set;
+  ```
+
