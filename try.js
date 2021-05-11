@@ -1,12 +1,13 @@
-function mayuscula(array) {
-  //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
-  //ej: Recibe "mario" ----> Devuelve "Mario"
-  //Tu código
-  const newArray = array.filter(item => {
-    return item.charAt(0) === 'a'
-  })
-  return newArray
+function buscoInterseccion(arreglo1, arreglo2) {
+  //Existen dos arrays, cada uno con 5 números. A partir de ello, escribir una función que permita
+  //retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
+  //Si no tienen elementos en común, retornar un arreglo vacío.
+  //Aclaración: los arreglos no necesariamente tienen la misma longitud
+  //Escribe tu código aquí
+  const coincidencias = arreglo1.filter(item => arreglo2.includes(item))
+  return coincidencias
 }
-var array = ['abajo', 'pera', 'escalera', 'alerta', 'indice', 'azteca', 'arbol', 'buzo'];
 
-console.log(mayuscula(array))
+
+let cosas = buscoInterseccion(["You", "are", "beautiful", "looking"], ["You", "are"])
+console.log(cosas)
