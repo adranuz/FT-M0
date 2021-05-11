@@ -1,0 +1,30 @@
+* Funciones Callback
+  - primero hay que recordar que es una funcion: una serie de pasos estructurados
+    dar un salto podria ser una funcion, 
+    ```js
+    function darUnSalto() {
+      doblar las rodillas
+      hasta llegar lo mas abajo
+      alargarlas rapidamente
+      tratando de alcanzar el techo
+      controlando la caida
+      hasta que llegues al piso
+    }
+    ```
+    Una funcion callback es lo mismo que una funcion normal, solo que 
+    ocurre dentro de otra funcion, para poder hacer esto es necesario mandar 
+    la funcion que funcionara como callback como un parametro.
+    ```
+    function darUnSalto( gritar ) {
+      doblar las rodillas
+      hasta llegar lo mas abajo
+      alargarlas rapidamente
+      tratando de alcanzar el techo
+      controlando la caida
+      hasta que llegues al piso
+      gritar()
+    }
+    ```
+    lo que estamos diciendo aqui es que vamos a dar un salto, y dentr de ese salto
+    lo ultimo que haremos es gritar que conlleva otra serie de pasos descritos
+    en otro lugar

@@ -1,0 +1,30 @@
+* clase
+  - Una clase es una guia para crear objetos, 
+    por decir un objeto mascota debe tener un nombre, una edad, una fecha de nacimiento
+    por lo que cada mascota es un objeto y la clase seria la gerarquia de datos que necesitamos
+    para describirlo. En este ejemplo la clase seria como una tarjeta para identificar a la mascota
+    y el objeto seria esta tarjeta llenada adecuadamente.
+
+
+* `prototype`
+  - es la propiedad del objeto padre que permite la herencia de los metodos, para salvar memoria
+  - prototipe es el lugar donde se Js guarda los metodos de una clase,
+    al tu escribir algo en el prototype estas agregando una funcionalidad al objeto padre, y por lo tanto
+    los objetos hijos tendran todos estos metodos.
+    Por ejemplo si regresamos a la tarjeta, seria que a todas las mascotas les agregas que pueden hacer
+    un salto, o que pueden hacerse el muertito. Pero es como si todos ellos, verificaran en la tarjeta
+    y dijeran ah mira aqui dice que si lo se hacer y se hace asi.
+
+* _Constructors_ (de Clases)
+  - El constructor es el metodo principal para crear al objeto, es el metodo que ocurre cuando 
+    se hace una herencia de una clase, por esto es que el constructor es el que recive los parametros
+    al crear una instancia.
+    tambien puedes declarar los metodos principales en el,
+    asi como asignar los parametros de la clase padre mediante super(params)
+    Es como la declaracion de los datos mas importantes de tu mascota
+      - Nombre
+      - Genero
+      - Vivo 
+      - Nacionalidad
+      - Prueba
+      
