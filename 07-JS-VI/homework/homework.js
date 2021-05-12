@@ -26,6 +26,7 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   //Tu código:
   const sum = numeros.reduce((lastValue, currentValue) => lastValue + currentValue)
+  console.log(sum)
   cb(sum)
 }
 
